@@ -1,8 +1,22 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<div class="container" style="text-align:center">
   <h1>
      {{ title }}
   </h1>
 </div>
+<app-navigation-bar></app-navigation-bar>
+<div class="container">
+  <div class="row"> 
+    <div class="col-lg-3">
+      <app-side-bar></app-side-bar>
+    </div>
+    <div class="col-lg-9">
+      <app-carousel-side-bar></app-carousel-side-bar>
+    </div>
+  </div>
+</div>
+
+
+<app-footer></app-footer>
 
 
